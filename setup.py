@@ -34,10 +34,10 @@ setup(name='pyaxl',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          'suds-jurko'
+          'suds'
       ],
       tests_require=[
-          'suds-jurko',
+          'suds',
       ],
       test_suite='pyaxl.testing.test_suite',
       entry_points={
